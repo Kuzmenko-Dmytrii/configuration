@@ -1,0 +1,68 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+
+}
+body {
+font-family: 'quake2';
+font-size: calc(24px + 20 * (100vw / 1280));
+font-weight: 550;
+color: rgb(0, 0, 0);
+
+}
+@font-face {
+font-family:'Quake2';
+src: url(./fonts/quake2.ttf);
+src: url(./fonts/Quake___.ttf);
+src: url(./fonts/dpquake_.ttf);
+}
+
+
+.window {
+background:url(/img/qc_main.jpg);
+width:100%;
+height:100vh;
+background-size: cover;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.glass-window {
+background:rgba(0, 0, 0, 0.301);
+width:100%;
+height: 100%;
+margin: 0 auto;
+backdrop-filter: blur(3px);
+padding: 5px;
+text-align: center;
+
+
+}
+.description {
+position: absolute;
+top: 50%;
+left: 50%;
+margin-right: -50%;
+transform: translate(-50%, -50%);
+}
+
+p {
+display: flex;
+align-items:center;
+text-align: center;
+margin: 10px;
+padding: 3px;
+justify-content:space-around;
+text-shadow: 1px 2px 1px  rgb(250, 250, 250); 
+
+}
+.background_card {
+width: 80%;
+background:rgba(255, 255, 255, 0.075);
+border-radius: 20px;
+margin: 0 auto;
+}
+
