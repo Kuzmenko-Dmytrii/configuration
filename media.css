@@ -1,0 +1,28 @@
+/* @media (max-width:1280px) {
+    body {
+        background:url(/img/qc_main.jpg);
+        background-size: cover;
+        background-position:center;
+        backdrop-filter: blur(2px);
+    }
+} */
+
+@media (max-width:900px) {
+    body {
+        background:url(/img/nyx_mobile.jpg);
+        background-size: cover;
+        background-position:center;
+        backdrop-filter: blur(2px);
+    }
+}
+
+@media (max-width: 576px) {
+    body {
+        background:url(/img/nyx_mobile.jpg);
+        background-size: cover;
+        background-position:center;
+        backdrop-filter: blur(2px);
+    }
+
+
+}
